@@ -1,0 +1,15 @@
+RewriteEngine on
+
+RewriteRule ^news news.php [NC]
+RewriteRule ^promo promo.php [NC]
+RewriteRule ^events&seminar events&seminar.php [NC]
+RewriteRule ^blog blog.php [NC]
+RewriteRule ^new-view-news new-view-news.php [NC]
+RewriteRule ^new-view-blog new-view-blog.php [NC]
+RewriteRule ^new-view-promo new-view-promo.php [NC]
+RewriteRule ^new-view-es new-view-es.php [NC]
+RewriteRule ^view-news view-news.php [NC]
+RewriteRule ^view-blog view-blog.php [NC]
+RewriteRule ^view-events&seminars view-events&seminars.php [NC]
+RewriteRule ^view-promo view-promo.php [NC]
+RewriteRule ^get-footer get-footer.php [NC]

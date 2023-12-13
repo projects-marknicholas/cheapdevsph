@@ -1,0 +1,23 @@
+RewriteEngine on
+
+RewriteRule ^register register.php
+RewriteRule ^dashboard dashboard.php
+RewriteRule ^forgot-password forgot-password.php
+RewriteRule ^otp otp.php
+RewriteRule ^new-password new-password.php
+RewriteRule ^logout logout.php
+RewriteRule ^news news.php
+RewriteRule ^events&seminars events&seminars.php
+RewriteRule ^blog blog.php
+RewriteRule ^promo promo.php
+RewriteRule ^messages messages.php
+RewriteRule ^subscription subscription.php
+RewriteRule ^account account.php
+RewriteRule ^projects projects.php
+RewriteRule ^view-news view-news.php
+RewriteRule ^view-blog view-blog.php
+RewriteRule ^view-promo view-promo.php
+RewriteRule ^view-events&seminars view-events&seminars.php
+RewriteRule ^view-messages view-messages.php
+RewriteRule ^view-project view-project.php
+RewriteRule ^view-blog view-blog.php

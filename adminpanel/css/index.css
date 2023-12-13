@@ -1,0 +1,367 @@
+*{
+	padding: 0;
+	margin: 0;
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+	font-family: raleway;
+}
+html, body{
+	height: 100%;
+}
+
+main{
+	height: 100%;
+	width: 100%;
+	display: flex;
+}
+.wrapper{
+	height: 100%;
+	overflow-y: hidden;
+	overflow-x: auto;
+	width: 50%;
+}
+.wrap-img{
+	height: auto;
+	width: 100%;
+	display: block;
+	margin: auto;
+}
+.wrap-sem{
+	padding: 40px;
+}
+.wrap-sem > h2{
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+.form-control{
+	width: 100%;
+	padding: 15px;
+	margin-top: 20px;
+	border: none;
+	border-bottom: 2px solid #185ca4;
+	outline: none;
+}
+.form-group > .btn{
+	width: 100%;
+	padding: 17px;
+	margin-top: 30px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	cursor: pointer;
+	background: linear-gradient(to right, #185ca4, #185ca4, #fdc134);
+	border: none;
+	font-size: 1.3em;
+	color: white;
+}
+.alert-danger{
+	background-color: #dc3545;
+	padding: 10px;
+	color: white;
+	text-align: center;
+}
+.alert-success{
+	background-color: green;
+	padding: 10px;
+	color: white;
+	text-align: center;
+}
+.invalid-feedback{
+	color: #dc3545;
+}
+
+.main-left{
+	width: 20%;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.main-left > h1{
+	font-size: 1.2em;
+	text-transform: uppercase;
+	text-align: center;
+	color: #185ca4;
+	margin-bottom: 20px;
+}
+.main-left > a{
+	text-decoration: none;
+	color: black;
+	font-size: 1.2em;
+	text-transform: capitalize;
+}
+.main-left > a:hover > .main-sub-menu{
+	color: #185ca4;
+	border-right: 5px solid #185ca4;
+	background-color: rgba(24, 92, 164, .1);
+}
+.active-menu{
+	color: #185ca4;
+	border-right: 5px solid #185ca4;
+	background-color: rgba(24, 92, 164, .1);
+}
+.main-right{
+	width: 80%;
+	background-color: #f6f6f6;
+	padding: 20px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.main-logo{
+	width: 30%;
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+}
+.main-sub-menu{
+	padding: 15px 20px;
+}
+
+.table-div{
+	margin-top: 50px;
+	padding: 20px;
+	border-radius: 12px;
+	background-color: white;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.table-div-flex{
+	display: flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.table-div-flex-right{
+	margin-left: auto;
+	margin-right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.blue{
+	color: #185ca4;
+	font-weight: 600;
+}
+.form-control-search{
+	padding: 10px 20px;
+	outline: none;
+	border-radius: 100px;
+	border: 1px solid rgba(0,0,0,0.2);
+}
+.table-div > table{
+	width: 100%;
+	margin-top: 20px;
+}
+table > thead > tr > th{
+	background-color: #f6f6f6;
+	padding: 7px;
+	font-size: .8em;
+	color: rgba(0,0,0,0.7);
+}
+table > tbody > tr > td{
+	text-align: center;
+	padding: 12px;
+}
+.td-image{
+	width: 50px;
+}
+.btn-add{
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+	background-color: #185ca4;
+	color: white;
+	text-decoration: none;
+	font-size: .8em;
+	border-radius: 100px;
+	margin-right: 10px;
+}
+.btn-view{
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+	background-color: #185ca4;
+	color: white;
+	text-decoration: none;
+	font-size: .8em;
+}
+.btn-delete{
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+	background-color: #dc3545;
+	color: white;
+	text-decoration: none;
+	font-size: .8em;
+}
+.pending{
+	background-color: #dc3545;
+	color: white;
+	text-transform: uppercase;
+	font-size: .8em;
+	font-weight: bolder;
+	font-style: italic;
+}
+.seen{
+	background-color: green;
+	color: white;
+	text-transform: uppercase;
+	font-size: .8em;
+	font-weight: bolder;
+	font-style: italic;
+}
+.grid-4{
+	margin-top: 20px;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	gap: 20px;
+}
+.grid-2{
+	margin-top: 20px;
+	display: grid;
+	grid-template-columns: 49% 49%;
+	gap: 20px;
+}
+.grid-item{
+	background-color: white;
+	padding: 12px;
+	border-radius: 8px;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.grid-item > p{
+	font-size: .8em;
+	color: rgba(0,0,0,0.6);
+	letter-spacing: 1.3px;
+}
+.view-box{
+	margin-top: 20px;
+	background-color: white;
+	border-radius: 12px;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	padding: 20px;
+	display: grid;
+	grid-template-columns: 49% 49%;
+	gap: 20px;
+}
+.view-item > label{
+	font-size: .8em;
+	text-transform: uppercase;
+	display: block;
+}
+.view-item > label > .form-control-input{
+	padding: 12px;
+	outline: none;
+	margin-top: 10px;
+	width: 100%;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+.column img {
+	width: 100px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  position: relative;
+  display: none;
+}
+
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+#expandedImg{
+	width: 100%;
+}
+.row > p{
+	font-size: .8em;
+	text-transform: uppercase;
+}
+.btn-update{
+	padding: 10px;
+	width: 100%;
+	margin-top: 10px;
+	cursor: pointer;
+	border: none;
+	background-color: #185ca4;
+	color: white;
+}
+.btn-update:hover{
+	opacity: .8;
+}
+.hider > label{
+	background-color: #185ca4;
+	width: fit-content;
+	padding: 10px;
+	color: white;
+	cursor: pointer;
+}
+.hider > label > input{
+	opacity: 0;
+	position: absolute;
+}
+.filer{
+	display: block;
+	margin-top: 10px;
+}
+.mess-text{
+	margin-top: 10px;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+.mess-text > span{
+	font-weight: normal;
+}
+#modal{
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	background-color: rgba(0, 0, 0, .8);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: none;
+}
+.form-item{
+	width: 50%;
+	animation: formAnimate .8s ease-in-out;
+}
+@keyframes formAnimate{
+	from {margin-top: -50px;}
+	to {margin-top: 0px;}
+}
+.white{
+	color: white;
+}
+.exit{
+	position: absolute;
+	top: 25px;
+	right: 25px;
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 1.5em;
+}
